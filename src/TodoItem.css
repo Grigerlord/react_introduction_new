@@ -9,7 +9,27 @@
     background-color: #e7e7e7;
 }
 
-.liTodoItem p {
-    justify-content: flex-start;
+.liTodoItem span, .liTodoItem nav {
+    color: #cacaca;
 }
+
+
+
+
+.liTodoItem nav ul li ul {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+}
+
+.liTodoItem ul ul li {
+ float:none;
+ width: 150px;
+}
+
+.liTodoItemul nav ul li:hover > .liTodoItem nav ul li ul{
+    display:block;
+}
+
 

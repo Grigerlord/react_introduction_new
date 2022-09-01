@@ -1,0 +1,18 @@
+.InputCreateNewTodo {
+    padding:16px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    background-color: f5f5f5;
+    font-weight: 600;
+    width: 70%;
+}
+
+.InputCreateNewTodo:hover::placeholder,
+.InputCreateNewTodo:hover,
+.InputCreateNewTodo:focus {
+    color: #1854e1;
+    text-shadow: #5881df 0.1em 0.1em 0.2em;
+
+    border: none;
+    outline: none;
+}
