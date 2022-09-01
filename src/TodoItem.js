@@ -1,11 +1,12 @@
 import React from 'react'
+import './TodoItem.css'
 
 const TodoItem = (props) => {
   return (
-    <li>
-        <span> C </span>
+    <li className='liTodoItem'>
+        <span className='completeTodo'> V </span>
           <p>{ props.text }</p>
-        <span> X </span>
+        <span className='deleteTodo'> X </span>
     </li>
   )
 }

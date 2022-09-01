@@ -28,9 +28,9 @@ function App(props) {
       <TodoList >
         {
           todos.map(todo => (
-            <TodoItem key={props.text} text={todo.text}/>
-            ))
-          }
+            <TodoItem key={props.text} text={todo.text} />
+          ))
+        }
       </TodoList>
 
       <View />
@@ -43,4 +43,4 @@ function App(props) {
   );
 }
 
-export default App;
+export { App };

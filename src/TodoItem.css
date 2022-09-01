@@ -1,0 +1,11 @@
+.liTodoItem {
+    border-bottom: solid 1px #cacaca;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.liTodoItem:hover {
+    background-color: #e7e7e7;
+}
+
