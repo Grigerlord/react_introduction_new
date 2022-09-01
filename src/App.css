@@ -12,6 +12,9 @@ body {
     padding: 20px;
     overflow: hidden;
     align-items: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190928/pngtree-blue-space-rocket-cloud-planet-background-image_317514.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 h1 {
@@ -20,4 +23,12 @@ h1 {
 
 ul, li {
     text-decoration: none;
+}
+
+#root {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

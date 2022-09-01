@@ -1,9 +1,10 @@
-#createNewTodo {
+.createNewTodo {
     width: 70vw;
-    padding:16px;
     border: none;
     border-radius: 8px;
     background-color: f5f5f5;
-    box-shadow: 8px 8px 20px 8px #c7c7c7;
+    /* box-shadow: 8px 8px 20px 8px #c7c7c7; */
     font-weight: 600;
+    overflow: hidden;
+    display: flex;
 }

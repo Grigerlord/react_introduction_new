@@ -9,3 +9,7 @@
     background-color: #e7e7e7;
 }
 
+.liTodoItem p {
+    justify-content: flex-start;
+}
+

@@ -1,9 +1,14 @@
 import React from 'react'
 import './CreateNewTodo.css'
+import { InputCreateNewTodo } from './InputCreateNewTodo'
+import { ButtonCreateNewTodo } from './ButtonCreateNewTodo'
 
 const CreateNewTodo = () => {
   return (
-    <input type='text' placeholder='+ Create new Todo...' id='createNewTodo'/>
+    <div className='createNewTodo'>
+      <InputCreateNewTodo />
+      <ButtonCreateNewTodo />
+    </div>
   )
 }
 
