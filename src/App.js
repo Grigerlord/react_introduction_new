@@ -23,6 +23,7 @@ function App(props) {
 
       <CreateNewTodo />
 
+      <TodoSearch />
 
 
       <TodoList >
@@ -35,7 +36,6 @@ function App(props) {
 
       <View />
 
-      <TodoSearch />
 
       <TodoCounter />
 

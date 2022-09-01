@@ -12,11 +12,11 @@ const TodoItem = (props) => {
         <nav className='deleteTodo'>
           <ul>
             <li>
-              <FaEllipsisV />
               <ul>
-                <li>Editar   <FaPen />      </li>
-                <li>Eliminar <FaTrashAlt /> </li>
+                <li> <span>Edit</span>  <FaPen />       </li>
+                <li> <span>Delete</span> <FaTrashAlt /> </li>
               </ul>
+              <FaEllipsisV />
             </li>
           </ul>
         </nav>
