@@ -7,6 +7,7 @@ import { TodoItem }      from './TodoItem'
 import { TodoSearch }    from './TodoSearch'
 import { TodoCounter }   from './TodoCounter'
 import { View }          from './View'
+import { Footer }          from './Footer'
 
 const todos = [
   { text: 'comprar cebolla', completed: false},
@@ -26,18 +27,22 @@ function App(props) {
       <TodoSearch />
 
 
+
       <TodoList >
         {
           todos.map(todo => (
-            <TodoItem key={props.text} text={todo.text} />
+            <TodoItem key={todo.text} text={todo.text} />
           ))
         }
       </TodoList>
 
+
+
       <View />
 
-
       <TodoCounter />
+
+      <Footer />
 
     </React.Fragment>
   );
