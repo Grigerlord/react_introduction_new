@@ -1,7 +1,7 @@
 .liTodoItem {
     border-bottom: solid 1px #cacaca;
     display: flex;
-     justify-content: flex-start; /* cambio realizado aqui */
+    justify-content: space-between; /* cambio realizado aqui */
     padding: 16px;
 }
 
@@ -18,8 +18,9 @@
     color: #1854e1;
 }
 
-.liTodoItem nav {
-    order: 3;
+.liTodoItem p {
+    position: absolute;
+    margin-left: 32px;
 }
 
 
